@@ -1,0 +1,49 @@
+#red{
+  background-color: red;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#orange{
+    background-color: orange;
+}
+#grey{
+    background-color: grey;
+}
+#black{
+    background-color: black;
+}
+.button{
+    border-width: 2px;
+    color: rgb(240, 237, 234);
+    width: 100px;
+    height: 60px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+
+}
+.original{
+    border-width: 3px;
+    color: rgb(17, 16, 16);
+    width: 100px;
+    height: 60px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#origin_container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+#heading{
+    display: flex;
+    justify-content: space-around;
+}

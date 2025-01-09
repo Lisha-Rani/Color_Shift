@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>color buttons</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <div id="heading">
+    <h1>Color Changing Background</h1>
+</div>
+    <div class="buttons">
+        
+        <button id="red" class="button" onclick="change_color('red');">RED</button>
+        <button id="green" class="button" onclick="change_color('green');">GREEN </button>
+        <button id="blue" class="button" onclick="change_color('blue');">BLUE</button>
+        <button id="orange" class="button" onclick="change_color('orange');">ORANGE</button>
+        <button id="grey" class="button" onclick="change_color('grey');">GREY</button>
+        <button id="black" class="button" onclick="change_color('black');">BLACK</button>
+    </div>
+    <div id="origin_container" >
+        <button class="original" onclick="change_color('white')">ORIGINAL</button>
+    </div >
+    <script >
+        function change_color(color){
+   
+   document.body.style.backgroundColor = color;
+}
+    </script>
+</body>
+</html>
